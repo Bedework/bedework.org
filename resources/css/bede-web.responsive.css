@@ -1,0 +1,28 @@
+/* Global Responsive Styles */
+
+/* Huge Desktop */
+@media ( min-width : 1900px) {
+}
+
+/* Small Desktop */
+@media (max-width: 1199px) {
+}
+
+/* Small Desktop */
+@media (max-width: 991px) {
+}
+
+/* Mobile */
+@media ( max-width : 767px) {
+  .navbar-nav {
+    float: none;
+  }
+}
+
+/* Smart Phones */
+@media ( max-width : 480px) {
+}
+
+/* Original iPhone */
+@media ( max-width : 360px) {
+}
