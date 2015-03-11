@@ -12,9 +12,9 @@
 
     <link href="resources/bootstrap-3.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="resources/patternfly-1.0.5/css/patternfly.min.css" rel="stylesheet">
+    <link href="resources/css/carousel.css?v=1" rel="stylesheet">
     <link href="resources/css/bede-web.css?v=1" rel="stylesheet">
     <link href="resources/css/bede-web.responsive.css?v=1" rel="stylesheet">
-    <link href="resources/css/carousel.css?v=1" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -42,16 +42,14 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Overview</a></li>
-            <li><a href="#">Download</a></li>
-            <li><a href="#">Get Involved</a></li>
-            <li><a href="#">Learn More</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="get-involved.html">Get Involved</a></li>
+            <li><a href="learn-more.html">Learn More</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>  
   
-    <!-- Carousel
-    ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -60,29 +58,38 @@
         <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
-        <div class="item active">
+        <div class="item active" id="banner1">
           <div class="container">
             <div class="carousel-caption">
-              <h1>What is Bedework?</h1>
+              <h1>Open Source Calendaring</h1>
               <p>
                 Bedework is an open-source, enterprise calendaring system.  Bedework supports personal, public, and group events.
               </p>
+              <a class="btn btn-lg btn-default" href="download.html">Get Started Now</a>
             </div>
           </div>
         </div>
         <div class="item">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Bedework Headline #2</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <h1>Public Events</h1>
+              <p>
+                Bedework is one of the most powerful and popular public events calendaring systems, used most
+                frequently by large universities to communicate what's happening on campus!
+              </p>
+              <a class="banner-link" href="">See Examples</a>
             </div>
           </div>
         </div>
         <div class="item">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another Bedework Headline</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <h1>Personal Calendaring</h1>
+              <p>
+                Did you know that Bedework is also great standards-based personal and group calendaring system?  
+                Maybe you didn't, but you certainly do now!
+              </p>
+              <a class="banner-link" href="">Tell Me More!</a>
             </div>
           </div>
         </div>
@@ -90,36 +97,26 @@
     </div><!-- /.carousel -->
 
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
+    <div class="container features">
       <div class="row">
         <div class="col-lg-4">
           <h2>Heading</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <h2>Heading</h2>
           <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <h2>Heading</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
+    </div>
 
 
-      <!-- START THE FEATURETTES -->
-
+    <div class="container marketing">
       <hr class="featurette-divider">
-
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
@@ -156,25 +153,12 @@
 
       <hr class="featurette-divider">
 
-      <!-- /END THE FEATURETTES -->
-
-
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; 2015 Bedework</p>
       </footer>
 
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    </div>
   </body>
 </html>

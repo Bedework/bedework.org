@@ -43,3 +43,45 @@
 .navbar-nav {
   float: right;
 }
+
+img.icon16 {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    display: inline;
+    margin-top: -3px;
+}
+
+span.icon16-label {
+    margin-left: 5px;
+    line-height: 16px;
+    margin-top: 3px;
+}
+
+.carousel a.banner-link {
+  font-size: 18px;
+  color: #96B8FF;
+}
+
+.carousel h1 {
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+.features h2 {
+    color: rgb(170, 68, 68);
+    padding-bottom: 3px;
+}
+
+h1.section-header {
+    border-bottom: 1px dashed rgb(153, 153, 153);
+    padding-bottom: 5px;
+}
+
+div.download, div.get-involved, div.learn-more {
+  margin-top: 35px;
+}
+
+.inline-code-block {
+  padding: 2px;
+}
